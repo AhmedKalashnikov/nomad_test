@@ -14,6 +14,6 @@ Unfortunately for me, I got used to the mysql.connector library, which sucks for
 - runCodegen.py runs playwright codegen in an authenticated state
 - test_nomad_main.py is the script where test functions are initially called from.
 
-All I have to do to run my tests is type 'pytest', and thanks to parallel execution, I'll know the results in circa 15 seconds(used to be about a minute before implementing parallelism).
+All I have to do to run my tests is type 'pytest', and thanks to parallel execution, I'll know the results in circa 15 seconds(used to be about a minute before implementing parallelism). All tests clean up after themselves.
 
 Libraries and frameworks used: sys, os, shutil, logging, pytest, playwright.sync_api, pytest-xdist, pytest-playwright, mysql.connector, datetime, pathlib, traceback, csv, random, re
