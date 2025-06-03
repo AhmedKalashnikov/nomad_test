@@ -1,5 +1,4 @@
 import logging, pytest, os
-from PIL import Image
 from pathlib import Path
 from datetime import datetime
 from playwright.sync_api import Playwright, Browser, BrowserContext, Page
