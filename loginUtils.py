@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright, Page 
-import csv, subprocess
+import csv
 from pathlib import Path
 
 def get_user_credentials(credsDir: str) -> list:
