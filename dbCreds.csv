@@ -1,0 +1,4 @@
+This is where database credentials should be stored - this row should contain the database's hostname,
+this row should contain the username,
+this row should contain the password,
+and this row should contain the database's name
