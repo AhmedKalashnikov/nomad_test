@@ -1,4 +1,4 @@
-import sys, traceback
+import sys
 from playwright.sync_api import sync_playwright
 from loginUtils import nomadLogin
 
@@ -54,7 +54,6 @@ def get_coordinates(url: str, browser: str) -> None:
             else:
                 page.goto('https://'+url)
         except:
-            traceback.print_exc()
             raise ValueError('Invalid URL!')
             
         # add coordinate logging with JavaScript
