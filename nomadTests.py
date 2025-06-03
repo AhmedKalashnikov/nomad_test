@@ -1,4 +1,4 @@
-import csv, pytest, logging, random, re, pyautogui
+import csv, pytest, logging, random, re
 from mysql.connector import MySQLConnection
 from mysql.connector.cursor import MySQLCursor
 from playwright.sync_api import Page
