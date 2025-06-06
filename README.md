@@ -13,6 +13,7 @@ Unfortunately for me, I got used to the mysql.connector library, which sucks for
 - nomadTests.py is where all tests are set up and their execution flows are defined.
 - runCodegen.py runs playwright codegen in an authenticated state
 - test_nomad_main.py is the script where test functions are initially called from.
+- requirements.txt for quick and easy installation of all required libraries('pip install -r requirements.txt')
 
 All I have to do to run my tests is type 'pytest', and thanks to parallel execution, I'll know the results in circa 15 seconds(used to be about a minute before implementing parallelism). All tests clean up after themselves.
 
